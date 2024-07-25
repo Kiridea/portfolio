@@ -1,0 +1,25 @@
+nav {
+    width: 100vw;
+    height: 3em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav-button {
+    border: none;
+    background-color: rgba(128, 8, 8, 0.515);
+    width: 15em;
+    height: 100%;
+    color:rgb(255, 229, 229);
+    border-radius: 30px;
+    margin: 1em;
+    transition: 300ms;
+}
+
+#nav-button:hover {
+    transform: scale(0.9);
+    background-color: none;
+}
