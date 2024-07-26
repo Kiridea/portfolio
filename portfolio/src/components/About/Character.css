@@ -1,0 +1,25 @@
+.character {
+    width: 40vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#avatar {
+    height: 80%;
+    width: 50%;
+    background-color: brown;
+}
+
+#circle {
+    width: 100%;
+    height: 20%;
+    background-color: rgba(255, 180, 180, 0.43);
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%;
+    box-shadow: 5px 0px 30px rgba(255, 180, 180, 0.43);
+}

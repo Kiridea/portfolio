@@ -1,10 +1,12 @@
+import './Skills.css'
+
 function Skills() {
     return(
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul className="skill-set">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JS</li>
+            <li>React</li>
         </ul>
     )
 }

@@ -1,9 +1,11 @@
+import './Character.css'
+
 function Character() {
-    return(
-        <>
-        <img src="" alt="kiri avatar" />
-        <div id="circle"></div>
-        </>
+    return (
+        <div className="character">
+            <img id="avatar" src="" alt="kiri avatar" />
+            <div id="circle"></div>
+        </div>
     )
 }
 
