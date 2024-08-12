@@ -10,7 +10,7 @@
     right: 0;
     margin-right: 3em;
     padding: 2em 2em;
-    border-radius: 30px;
+    border-radius: 0.5rem;
     gap: 5px;
 }
 
@@ -42,12 +42,17 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .style-buttons button{
-    width: 4em;
-    height: 4em;
+    width: 3em;
+    height: 3em;
     border-radius: 50%;
     border: none;
     background-color: rgba(255, 192, 203, 0.895);
+}
+
+.description {
+    overflow-y: scroll;
 }

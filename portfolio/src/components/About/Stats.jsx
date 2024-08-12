@@ -19,7 +19,7 @@ function Stats() {
             </div>
             <hr />
             <p>Title - Web Developer | Digital Artist</p>
-            <p>Description <br />
+            <p className="description">Description <br />
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum officiis unde itaque distinctio consequatur ipsum quidem doloribus minima voluptate ad accusamus culpa est voluptatum qui, impedit cumque dolorum magni nisi?
             </p>
             <div className="style-buttons">

@@ -13,3 +13,24 @@ body {
 #root {
   min-height: 100vh;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1c5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #d55f7a;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #c14d77;
+  cursor: pointer;
+}
