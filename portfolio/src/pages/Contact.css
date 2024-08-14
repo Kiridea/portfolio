@@ -1,0 +1,10 @@
+#contact {
+    color: white;
+}
+
+#socials li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
